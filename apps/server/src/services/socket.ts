@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 import Redis from 'ioredis'
 
 const pub = new Redis({
-    host: ',
+    host: '',
     port: 0,
     username: '',
     password: ''
